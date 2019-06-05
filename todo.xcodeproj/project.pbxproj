@@ -16,6 +16,8 @@
 		F5A142A322A7FA3F008D0DAA /* todoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A142A222A7FA3F008D0DAA /* todoUITests.swift */; };
 		F5A142B122A80349008D0DAA /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A142B022A80349008D0DAA /* ToDoTableViewController.swift */; };
 		F5A142B322A8039D008D0DAA /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A142B222A8039D008D0DAA /* ToDo.swift */; };
+		F5CCCD0922A80D69005FAC58 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCCD0822A80D69005FAC58 /* AddToDoViewController.swift */; };
+		F5CCCD0B22A81272005FAC58 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCCD0A22A81272005FAC58 /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F5A142A422A7FA3F008D0DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5A142B022A80349008D0DAA /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		F5A142B222A8039D008D0DAA /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		F5CCCD0822A80D69005FAC58 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		F5CCCD0A22A81272005FAC58 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				F5A1428622A7FA3E008D0DAA /* todo.xcdatamodeld */,
 				F5A142B022A80349008D0DAA /* ToDoTableViewController.swift */,
 				F5A142B222A8039D008D0DAA /* ToDo.swift */,
+				F5CCCD0822A80D69005FAC58 /* AddToDoViewController.swift */,
+				F5CCCD0A22A81272005FAC58 /* CompleteToDoViewController.swift */,
 			);
 			path = todo;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 			files = (
 				F5A1428022A7FA3E008D0DAA /* AppDelegate.swift in Sources */,
 				F5A142B122A80349008D0DAA /* ToDoTableViewController.swift in Sources */,
+				F5CCCD0922A80D69005FAC58 /* AddToDoViewController.swift in Sources */,
 				F5A1428822A7FA3E008D0DAA /* todo.xcdatamodeld in Sources */,
+				F5CCCD0B22A81272005FAC58 /* CompleteToDoViewController.swift in Sources */,
 				F5A142B322A8039D008D0DAA /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
